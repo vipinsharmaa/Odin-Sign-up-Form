@@ -1,0 +1,170 @@
+/*  Reset   */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+/*  FONTS   */
+
+@font-face {
+    font-family: norse-bold;
+    src: url("Norse-Bold.otf");
+}
+
+
+/*  CSS */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+
+}
+
+header {
+    flex: 1;
+    position: relative;
+
+}
+
+.background-image {
+    background: url("images/anna-kaminova-BhZuCnDp7nU-unsplash.jpg") no-repeat center;
+    height: 100%;
+
+}
+
+.logo-section {
+    padding: 1em;
+    height: 6rem;
+    background-color: black;
+    opacity: 0.6;
+    color: #fff;
+    padding-bottom: 2.5rem;
+    font-family: 'norse-bold', serif;
+    font-size: 2.5rem;
+    position: sticky;
+    top: 140px;
+    display: flex;
+    gap: 1rem;
+    padding-left: 5rem;
+    align-items: center;
+}
+
+.logo-section img {
+    height: 4rem;
+    width: 4rem;
+
+}
+
+.logo-section span {
+    padding: 1rem 2rem 1rem;
+}
+
+main {
+    width: 62%;
+    display: flex;
+    background-color: #f9fafb;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bold;
+
+}
+
+.form-info,
+form,
+.login {
+    padding: 1rem 1rem;
+}
+
+.form-info {
+    align-content: end;
+    width: 65%;
+    height: 200px;
+    margin-left: 2rem;
+}
+
+form {
+    background-color: #fff;
+    box-shadow: 0 5px 5px #e0e1e2;
+}
+
+form fieldset {
+    width: 70%;
+    padding-left: 2rem;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+fieldset div {
+    display: flex;
+    flex-direction: column;
+}
+
+form legend {
+    padding-bottom: 2rem;
+}
+
+button {
+    width: 200px;
+    margin: 2rem 2rem 0.6rem;
+    background-color: #596d48;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form input {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+form label {
+    font-size: 0.7rem;
+}
+
+.login {
+    margin-left: 1rem;
+}
+
+span.login-text {
+    color: #596d48;
+}

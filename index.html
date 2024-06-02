@@ -4,11 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Sign-up Form</title>
 </head>
 
 <body>
+    <div class="container">
+        <header>
+            <div class="background-image">
+                <div class="logo-section">
+                    <img src="images/odin-lined.png" alt="odin logo">
+                    <span>ODIN GARDEN</span>
+                </div>
+            </div>
+        </header>
 
+        <main>
+            <div class="form-info">
+                <p>Please fill in this fake form to order fresh and delicious fruits. Right from the tree to your plate
+                    in
+                    less than 24 hrs.</p>
+            </div>
+            <form action="" method="POST" id="order-form">
+                <fieldset>
+                    <legend>You can do this!</legend>
+                    <div>
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" name="first_name" id="first_name">
+                    </div>
+
+                    <div>
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" name="last_name" id="last_name">
+                    </div>
+
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+
+                    <div>
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm" id="confirm">
+                    </div>
+
+                </fieldset>
+
+            </form>
+
+            <button type="submit" form="order-form">Create Account</button>
+            <p class="login">Already have an account? <span class="login-text">Log in</span></p>
+
+        </main>
+    </div>
 </body>
 
 </html>
