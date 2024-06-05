@@ -114,8 +114,9 @@ form,
 }
 
 .form-info {
-    align-content: end;
+    align-content: center;
     width: 65%;
+    font-size: 1.1rem;
     height: 200px;
     margin-left: 2rem;
 }
@@ -142,10 +143,14 @@ fieldset div {
 
 form legend {
     padding-bottom: 2rem;
+    font-style: italic;
+    font-size: 1.4rem;
 }
 
 input {
     border: 2px solid #E5E7EB;
+    color: #3f3f3d;
+    font-weight: 200;
 }
 
 

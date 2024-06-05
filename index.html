@@ -44,7 +44,7 @@
                     </div>
 
                     <div>
-                        <label for="phone">PHONE NUMBER</label>
+                        <label for="phone">PHONE NUMBER (10 digit)</label>
                         <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" required>
                     </div>
 
@@ -77,7 +77,7 @@
                 input.classList.add('error');
             }, false);
 
-            // Optional: Check validity onblur
+            //  Check validity onblur
             input.addEventListener('blur', (event) => {
                 if (input.checkValidity()) {
                     input.classList.remove('error');
