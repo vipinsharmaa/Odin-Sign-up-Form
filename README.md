@@ -5,7 +5,7 @@
 ### Solution Links
 
 - Solution URL: [https://github.com/vipinsharmaa/Odin-Sign-up-Form](https://github.com/vipinsharmaa/Odin-Sign-up-Form)
-- Live Site URL: [https://vipinsharmaa.github.io/Odin-Sign-up-Form/](https://vipinsharmaa.github.io/Odin-Sign-up-Form/){:target="_blank"}
+- Live Site URL: [https://vipinsharmaa.github.io/Odin-Sign-up-Form/](https://vipinsharmaa.github.io/Odin-Sign-up-Form/)
 
 
 ### Screenshot
