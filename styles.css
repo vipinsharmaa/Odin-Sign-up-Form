@@ -144,6 +144,25 @@ form legend {
     padding-bottom: 2rem;
 }
 
+input {
+    border: 2px solid #E5E7EB;
+}
+
+
+input:focus {
+    box-shadow: 5px 5px 5px grey
+}
+
+input::placeholder {
+    font-size: 0.8rem;
+
+}
+
+
+input.error {
+    border-color: red;
+}
+
 button {
     width: 200px;
     margin: 2rem 2rem 0.6rem;
@@ -156,10 +175,12 @@ button {
 form input {
     margin-bottom: 1rem;
     margin-right: 1rem;
+    outline: none;
 }
 
 form label {
     font-size: 0.7rem;
+    margin-bottom: 0.2rem;
 }
 
 .login {
